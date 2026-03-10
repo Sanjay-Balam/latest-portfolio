@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="100%" style="stop-color:#1a1a35"/>
+    </linearGradient>
+    <linearGradient id="msgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6c63ff"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bg2)"/>
+
+  <!-- App Container -->
+  <rect x="100" y="60" width="1000" height="680" rx="12" fill="#1e1e3a" stroke="#333" stroke-width="1"/>
+
+  <!-- Sidebar -->
+  <rect x="100" y="60" width="280" height="680" rx="12" fill="#16162e"/>
+  <rect x="368" y="60" width="1" height="680" fill="#333"/>
+
+  <!-- Sidebar header -->
+  <rect x="100" y="60" width="280" height="60" rx="12" fill="#1c1c38"/>
+  <text x="140" y="97" font-size="18" fill="#fff" font-family="sans-serif" font-weight="bold">Rooms</text>
+  <!-- Search icon -->
+  <circle cx="340" cy="90" r="10" fill="none" stroke="#666" stroke-width="2"/>
+  <line x1="347" y1="97" x2="353" y2="103" stroke="#666" stroke-width="2"/>
+
+  <!-- Room list -->
+  <!-- Active room -->
+  <rect x="112" y="135" width="256" height="56" rx="8" fill="#6c63ff" opacity="0.2"/>
+  <rect x="112" y="135" width="3" height="56" rx="2" fill="#6c63ff"/>
+  <circle cx="140" cy="163" r="16" fill="#6c63ff"/>
+  <text x="140" y="168" font-size="14" fill="#fff" text-anchor="middle" font-family="sans-serif" font-weight="bold">#</text>
+  <text x="168" y="157" font-size="14" fill="#fff" font-family="sans-serif" font-weight="600">general</text>
+  <text x="168" y="174" font-size="11" fill="#888" font-family="sans-serif">Alex: Hey everyone!</text>
+  <circle cx="348" cy="163" r="10" fill="#e94560"/>
+  <text x="348" y="167" font-size="10" fill="#fff" text-anchor="middle" font-family="sans-serif" font-weight="bold">3</text>
+
+  <!-- Room 2 -->
+  <rect x="112" y="200" width="256" height="56" rx="8" fill="transparent"/>
+  <circle cx="140" cy="228" r="16" fill="#2a2a4a"/>
+  <text x="140" y="233" font-size="14" fill="#8b5cf6" text-anchor="middle" font-family="sans-serif" font-weight="bold">#</text>
+  <text x="168" y="222" font-size="14" fill="#ccc" font-family="sans-serif">dev-team</text>
+  <text x="168" y="239" font-size="11" fill="#666" font-family="sans-serif">Sara: PR looks good</text>
+
+  <!-- Room 3 -->
+  <rect x="112" y="265" width="256" height="56" rx="8" fill="transparent"/>
+  <circle cx="140" cy="293" r="16" fill="#2a2a4a"/>
+  <text x="140" y="298" font-size="14" fill="#8b5cf6" text-anchor="middle" font-family="sans-serif" font-weight="bold">#</text>
+  <text x="168" y="287" font-size="14" fill="#ccc" font-family="sans-serif">design</text>
+  <text x="168" y="304" font-size="11" fill="#666" font-family="sans-serif">Mike: New mockups ready</text>
+
+  <!-- Room 4 -->
+  <rect x="112" y="330" width="256" height="56" rx="8" fill="transparent"/>
+  <circle cx="140" cy="358" r="16" fill="#2a2a4a"/>
+  <text x="140" y="363" font-size="14" fill="#8b5cf6" text-anchor="middle" font-family="sans-serif" font-weight="bold">#</text>
+  <text x="168" y="352" font-size="14" fill="#ccc" font-family="sans-serif">random</text>
+  <text x="168" y="369" font-size="11" fill="#666" font-family="sans-serif">You: Thanks!</text>
+
+  <!-- Online users -->
+  <text x="130" y="430" font-size="11" fill="#666" font-family="sans-serif" font-weight="bold" letter-spacing="1">ONLINE - 5</text>
+  <circle cx="130" cy="455" r="12" fill="#4ade80" opacity="0.2"/>
+  <circle cx="130" cy="455" r="4" fill="#4ade80"/>
+  <text x="150" y="460" font-size="12" fill="#aaa" font-family="sans-serif">Alex</text>
+  <circle cx="130" cy="480" r="12" fill="#4ade80" opacity="0.2"/>
+  <circle cx="130" cy="480" r="4" fill="#4ade80"/>
+  <text x="150" y="485" font-size="12" fill="#aaa" font-family="sans-serif">Sara</text>
+  <circle cx="130" cy="505" r="12" fill="#4ade80" opacity="0.2"/>
+  <circle cx="130" cy="505" r="4" fill="#4ade80"/>
+  <text x="150" y="510" font-size="12" fill="#aaa" font-family="sans-serif">Mike</text>
+
+  <!-- Chat Area Header -->
+  <rect x="380" y="60" width="720" height="60" rx="0" fill="#1c1c38"/>
+  <text x="410" y="88" font-size="16" fill="#6c63ff" font-family="sans-serif" font-weight="bold"># general</text>
+  <text x="410" y="105" font-size="11" fill="#666" font-family="sans-serif">5 members online</text>
+
+  <!-- Chat messages -->
+  <!-- Message 1 -->
+  <circle cx="410" cy="160" r="16" fill="#e94560"/>
+  <text x="410" y="165" font-size="12" fill="#fff" text-anchor="middle" font-family="sans-serif" font-weight="bold">A</text>
+  <text x="436" y="155" font-size="14" fill="#e94560" font-family="sans-serif" font-weight="600">Alex</text>
+  <text x="486" y="155" font-size="10" fill="#555" font-family="sans-serif">2:30 PM</text>
+  <text x="436" y="174" font-size="13" fill="#ccc" font-family="sans-serif">Hey everyone! The new feature is deployed</text>
+
+  <!-- Message 2 -->
+  <circle cx="410" cy="220" r="16" fill="#4ade80"/>
+  <text x="410" y="225" font-size="12" fill="#fff" text-anchor="middle" font-family="sans-serif" font-weight="bold">S</text>
+  <text x="436" y="215" font-size="14" fill="#4ade80" font-family="sans-serif" font-weight="600">Sara</text>
+  <text x="480" y="215" font-size="10" fill="#555" font-family="sans-serif">2:31 PM</text>
+  <text x="436" y="234" font-size="13" fill="#ccc" font-family="sans-serif">Nice work! I'll run some tests on it</text>
+
+  <!-- Message 3 -->
+  <circle cx="410" cy="280" r="16" fill="#f59e0b"/>
+  <text x="410" y="285" font-size="12" fill="#fff" text-anchor="middle" font-family="sans-serif" font-weight="bold">M</text>
+  <text x="436" y="275" font-size="14" fill="#f59e0b" font-family="sans-serif" font-weight="600">Mike</text>
+  <text x="484" y="275" font-size="10" fill="#555" font-family="sans-serif">2:32 PM</text>
+  <text x="436" y="294" font-size="13" fill="#ccc" font-family="sans-serif">Looks great on mobile too!</text>
+
+  <!-- Message 4 - code block -->
+  <circle cx="410" cy="340" r="16" fill="#6c63ff"/>
+  <text x="410" y="345" font-size="12" fill="#fff" text-anchor="middle" font-family="sans-serif" font-weight="bold">Y</text>
+  <text x="436" y="335" font-size="14" fill="#6c63ff" font-family="sans-serif" font-weight="600">You</text>
+  <text x="468" y="335" font-size="10" fill="#555" font-family="sans-serif">2:33 PM</text>
+  <text x="436" y="354" font-size="13" fill="#ccc" font-family="sans-serif">Thanks! Here's the WebSocket config:</text>
+  <rect x="436" y="365" width="400" height="70" rx="6" fill="#0d0d1a" stroke="#333" stroke-width="1"/>
+  <text x="450" y="385" font-size="11" fill="#4ade80" font-family="monospace">const ws = new WebSocket(url);</text>
+  <text x="450" y="402" font-size="11" fill="#4ade80" font-family="monospace">ws.onmessage = (e) =&gt; {</text>
+  <text x="450" y="419" font-size="11" fill="#4ade80" font-family="monospace">  broadcast(JSON.parse(e.data));</text>
+  <text x="450" y="436" font-size="11" fill="#ccc" font-family="monospace">}</text>
+
+  <!-- Message 5 -->
+  <circle cx="410" cy="475" r="16" fill="#e94560"/>
+  <text x="410" y="480" font-size="12" fill="#fff" text-anchor="middle" font-family="sans-serif" font-weight="bold">A</text>
+  <text x="436" y="470" font-size="14" fill="#e94560" font-family="sans-serif" font-weight="600">Alex</text>
+  <text x="486" y="470" font-size="10" fill="#555" font-family="sans-serif">2:34 PM</text>
+  <text x="436" y="489" font-size="13" fill="#ccc" font-family="sans-serif">Clean implementation!</text>
+
+  <!-- Typing indicator -->
+  <text x="410" y="540" font-size="12" fill="#888" font-family="sans-serif" font-style="italic">Sara is typing</text>
+  <circle cx="500" cy="537" r="3" fill="#888" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="510" cy="537" r="3" fill="#888" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1s" begin="0.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="520" cy="537" r="3" fill="#888" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Message input -->
+  <rect x="395" y="665" width="690" height="45" rx="22" fill="#2a2a4a" stroke="#444" stroke-width="1"/>
+  <text x="425" y="692" font-size="13" fill="#666" font-family="sans-serif">Type a message...</text>
+  <!-- Send button -->
+  <circle cx="1055" cy="687" r="16" fill="#6c63ff"/>
+  <polygon points="1049,681 1063,687 1049,693" fill="#fff"/>
+
+  <!-- Title -->
+  <text x="600" y="770" font-size="14" fill="#888" text-anchor="middle" font-family="monospace">Next.js  |  Bun  |  Elysia  |  TypeScript  |  WebSockets</text>
+</svg>

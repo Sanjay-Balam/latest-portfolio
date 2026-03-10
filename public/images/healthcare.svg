@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="100%" style="stop-color:#121228"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1e3a"/>
+      <stop offset="100%" style="stop-color:#181830"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bg3)"/>
+
+  <!-- App Container -->
+  <rect x="60" y="40" width="1080" height="720" rx="12" fill="#14142a" stroke="#2a2a4a" stroke-width="1"/>
+
+  <!-- Top Navigation Bar -->
+  <rect x="60" y="40" width="1080" height="55" rx="12" fill="#1a1a35"/>
+  <rect x="60" y="83" width="1080" height="12" fill="#1a1a35"/>
+
+  <!-- Logo area -->
+  <rect x="85" y="52" width="32" height="32" rx="6" fill="#10b981"/>
+  <text x="101" y="74" font-size="18" fill="#fff" text-anchor="middle" font-family="sans-serif" font-weight="bold">+</text>
+  <text x="130" y="74" font-size="15" fill="#fff" font-family="sans-serif" font-weight="bold">HealthHub</text>
+
+  <!-- Nav items -->
+  <text x="550" y="74" font-size="13" fill="#10b981" font-family="sans-serif" font-weight="600">Dashboard</text>
+  <text x="650" y="74" font-size="13" fill="#888" font-family="sans-serif">Patients</text>
+  <text x="740" y="74" font-size="13" fill="#888" font-family="sans-serif">Appointments</text>
+  <text x="860" y="74" font-size="13" fill="#888" font-family="sans-serif">Reports</text>
+
+  <!-- User avatar -->
+  <circle cx="1090" cy="68" r="16" fill="#6c63ff"/>
+  <text x="1090" y="73" font-size="11" fill="#fff" text-anchor="middle" font-family="sans-serif" font-weight="bold">SB</text>
+
+  <!-- Sidebar -->
+  <rect x="60" y="95" width="200" height="665" fill="#111125"/>
+
+  <!-- Sidebar menu items -->
+  <rect x="72" y="115" width="176" height="38" rx="8" fill="#10b981" opacity="0.15"/>
+  <rect x="72" y="115" width="3" height="38" rx="2" fill="#10b981"/>
+  <text x="95" y="139" font-size="13" fill="#10b981" font-family="sans-serif" font-weight="600">Overview</text>
+
+  <text x="95" y="178" font-size="13" fill="#777" font-family="sans-serif">Patient Records</text>
+  <text x="95" y="210" font-size="13" fill="#777" font-family="sans-serif">Appointments</text>
+  <text x="95" y="242" font-size="13" fill="#777" font-family="sans-serif">Lab Results</text>
+  <text x="95" y="274" font-size="13" fill="#777" font-family="sans-serif">Prescriptions</text>
+  <text x="95" y="306" font-size="13" fill="#777" font-family="sans-serif">Billing</text>
+
+  <text x="82" y="360" font-size="10" fill="#555" font-family="sans-serif" font-weight="bold" letter-spacing="1">SETTINGS</text>
+  <text x="95" y="385" font-size="13" fill="#777" font-family="sans-serif">User Management</text>
+  <text x="95" y="417" font-size="13" fill="#777" font-family="sans-serif">Clinic Settings</text>
+  <text x="95" y="449" font-size="13" fill="#777" font-family="sans-serif">HIPAA Compliance</text>
+
+  <!-- Main Content Area -->
+  <!-- Welcome banner -->
+  <rect x="280" y="110" width="840" height="90" rx="10" fill="#1a1a35" stroke="#2a2a4a" stroke-width="1"/>
+  <text x="310" y="145" font-size="18" fill="#fff" font-family="sans-serif" font-weight="bold">Good Morning, Dr. Sanjay</text>
+  <text x="310" y="170" font-size="13" fill="#888" font-family="sans-serif">You have 12 appointments today and 3 pending lab results</text>
+  <!-- Date -->
+  <rect x="980" y="125" width="120" height="55" rx="8" fill="#10b981" opacity="0.1"/>
+  <text x="1040" y="150" font-size="12" fill="#10b981" text-anchor="middle" font-family="sans-serif">Today</text>
+  <text x="1040" y="170" font-size="16" fill="#10b981" text-anchor="middle" font-family="sans-serif" font-weight="bold">Mar 10, 2026</text>
+
+  <!-- Stats Cards Row -->
+  <!-- Card 1 - Total Patients -->
+  <rect x="280" y="220" width="195" height="105" rx="10" fill="url(#card)" stroke="#2a2a4a" stroke-width="1"/>
+  <text x="305" y="250" font-size="12" fill="#888" font-family="sans-serif">Total Patients</text>
+  <text x="305" y="285" font-size="28" fill="#fff" font-family="sans-serif" font-weight="bold">5,247</text>
+  <text x="305" y="308" font-size="11" fill="#10b981" font-family="sans-serif">+12.5% this month</text>
+  <rect x="430" y="240" width="30" height="30" rx="6" fill="#10b981" opacity="0.15"/>
+  <text x="445" y="260" font-size="16" fill="#10b981" text-anchor="middle" font-family="sans-serif">+</text>
+
+  <!-- Card 2 - Appointments -->
+  <rect x="490" y="220" width="195" height="105" rx="10" fill="url(#card)" stroke="#2a2a4a" stroke-width="1"/>
+  <text x="515" y="250" font-size="12" fill="#888" font-family="sans-serif">Today's Appointments</text>
+  <text x="515" y="285" font-size="28" fill="#fff" font-family="sans-serif" font-weight="bold">12</text>
+  <text x="515" y="308" font-size="11" fill="#f59e0b" font-family="sans-serif">3 remaining</text>
+
+  <!-- Card 3 - Revenue -->
+  <rect x="700" y="220" width="195" height="105" rx="10" fill="url(#card)" stroke="#2a2a4a" stroke-width="1"/>
+  <text x="725" y="250" font-size="12" fill="#888" font-family="sans-serif">Monthly Revenue</text>
+  <text x="725" y="285" font-size="28" fill="#fff" font-family="sans-serif" font-weight="bold">$84.2K</text>
+  <text x="725" y="308" font-size="11" fill="#10b981" font-family="sans-serif">+8.3% vs last month</text>
+
+  <!-- Card 4 - Active Clinics -->
+  <rect x="910" y="220" width="195" height="105" rx="10" fill="url(#card)" stroke="#2a2a4a" stroke-width="1"/>
+  <text x="935" y="250" font-size="12" fill="#888" font-family="sans-serif">Active Clinics</text>
+  <text x="935" y="285" font-size="28" fill="#fff" font-family="sans-serif" font-weight="bold">15</text>
+  <text x="935" y="308" font-size="11" fill="#6c63ff" font-family="sans-serif">Multi-tenant</text>
+
+  <!-- Chart Area -->
+  <rect x="280" y="345" width="520" height="260" rx="10" fill="url(#card)" stroke="#2a2a4a" stroke-width="1"/>
+  <text x="305" y="375" font-size="14" fill="#fff" font-family="sans-serif" font-weight="600">Patient Visits (Weekly)</text>
+
+  <!-- Chart bars -->
+  <rect x="320" y="505" width="40" height="70" rx="4" fill="#10b981" opacity="0.7"/>
+  <rect x="375" y="465" width="40" height="110" rx="4" fill="#10b981" opacity="0.7"/>
+  <rect x="430" y="485" width="40" height="90" rx="4" fill="#10b981" opacity="0.7"/>
+  <rect x="485" y="435" width="40" height="140" rx="4" fill="#10b981" opacity="0.9"/>
+  <rect x="540" y="455" width="40" height="120" rx="4" fill="#10b981" opacity="0.7"/>
+  <rect x="595" y="475" width="40" height="100" rx="4" fill="#10b981" opacity="0.7"/>
+  <rect x="650" y="415" width="40" height="160" rx="4" fill="#6c63ff" opacity="0.9"/>
+  <rect x="705" y="495" width="40" height="80" rx="4" fill="#10b981" opacity="0.4"/>
+
+  <!-- Chart labels -->
+  <text x="340" y="592" font-size="10" fill="#666" text-anchor="middle" font-family="sans-serif">Mon</text>
+  <text x="395" y="592" font-size="10" fill="#666" text-anchor="middle" font-family="sans-serif">Tue</text>
+  <text x="450" y="592" font-size="10" fill="#666" text-anchor="middle" font-family="sans-serif">Wed</text>
+  <text x="505" y="592" font-size="10" fill="#666" text-anchor="middle" font-family="sans-serif">Thu</text>
+  <text x="560" y="592" font-size="10" fill="#666" text-anchor="middle" font-family="sans-serif">Fri</text>
+  <text x="615" y="592" font-size="10" fill="#666" text-anchor="middle" font-family="sans-serif">Sat</text>
+  <text x="670" y="592" font-size="10" fill="#6c63ff" text-anchor="middle" font-family="sans-serif" font-weight="bold">Today</text>
+  <text x="725" y="592" font-size="10" fill="#666" text-anchor="middle" font-family="sans-serif">--</text>
+
+  <!-- Recent Patients Table -->
+  <rect x="815" y="345" width="290" height="260" rx="10" fill="url(#card)" stroke="#2a2a4a" stroke-width="1"/>
+  <text x="840" y="375" font-size="14" fill="#fff" font-family="sans-serif" font-weight="600">Recent Patients</text>
+
+  <!-- Patient rows -->
+  <circle cx="845" cy="410" r="14" fill="#e94560" opacity="0.2"/>
+  <text x="845" y="414" font-size="10" fill="#e94560" text-anchor="middle" font-family="sans-serif" font-weight="bold">JD</text>
+  <text x="870" y="406" font-size="12" fill="#ccc" font-family="sans-serif">John Doe</text>
+  <text x="870" y="420" font-size="10" fill="#666" font-family="sans-serif">Cardiology</text>
+  <rect x="1020" y="400" width="65" height="22" rx="11" fill="#10b981" opacity="0.15"/>
+  <text x="1052" y="415" font-size="10" fill="#10b981" text-anchor="middle" font-family="sans-serif">Active</text>
+
+  <circle cx="845" cy="455" r="14" fill="#6c63ff" opacity="0.2"/>
+  <text x="845" y="459" font-size="10" fill="#6c63ff" text-anchor="middle" font-family="sans-serif" font-weight="bold">AS</text>
+  <text x="870" y="451" font-size="12" fill="#ccc" font-family="sans-serif">Amy Smith</text>
+  <text x="870" y="465" font-size="10" fill="#666" font-family="sans-serif">Dermatology</text>
+  <rect x="1020" y="445" width="65" height="22" rx="11" fill="#f59e0b" opacity="0.15"/>
+  <text x="1052" y="460" font-size="10" fill="#f59e0b" text-anchor="middle" font-family="sans-serif">Pending</text>
+
+  <circle cx="845" cy="500" r="14" fill="#4ade80" opacity="0.2"/>
+  <text x="845" y="504" font-size="10" fill="#4ade80" text-anchor="middle" font-family="sans-serif" font-weight="bold">RK</text>
+  <text x="870" y="496" font-size="12" fill="#ccc" font-family="sans-serif">Raj Kumar</text>
+  <text x="870" y="510" font-size="10" fill="#666" font-family="sans-serif">Orthopedics</text>
+  <rect x="1020" y="490" width="65" height="22" rx="11" fill="#10b981" opacity="0.15"/>
+  <text x="1052" y="505" font-size="10" fill="#10b981" text-anchor="middle" font-family="sans-serif">Active</text>
+
+  <circle cx="845" cy="545" r="14" fill="#f59e0b" opacity="0.2"/>
+  <text x="845" y="549" font-size="10" fill="#f59e0b" text-anchor="middle" font-family="sans-serif" font-weight="bold">LP</text>
+  <text x="870" y="541" font-size="12" fill="#ccc" font-family="sans-serif">Lisa Park</text>
+  <text x="870" y="555" font-size="10" fill="#666" font-family="sans-serif">Neurology</text>
+  <rect x="1020" y="535" width="65" height="22" rx="11" fill="#6c63ff" opacity="0.15"/>
+  <text x="1052" y="550" font-size="10" fill="#6c63ff" text-anchor="middle" font-family="sans-serif">Review</text>
+
+  <!-- AWS / Security badges -->
+  <rect x="280" y="625" width="150" height="32" rx="6" fill="#1a1a35" stroke="#f59e0b" stroke-width="1"/>
+  <text x="355" y="646" font-size="11" fill="#f59e0b" text-anchor="middle" font-family="sans-serif" font-weight="600">HIPAA Compliant</text>
+
+  <rect x="445" y="625" width="120" height="32" rx="6" fill="#1a1a35" stroke="#ff9900" stroke-width="1"/>
+  <text x="505" y="646" font-size="11" fill="#ff9900" text-anchor="middle" font-family="sans-serif" font-weight="600">AWS Powered</text>
+
+  <rect x="580" y="625" width="130" height="32" rx="6" fill="#1a1a35" stroke="#10b981" stroke-width="1"/>
+  <text x="645" y="646" font-size="11" fill="#10b981" text-anchor="middle" font-family="sans-serif" font-weight="600">RBAC Enabled</text>
+
+  <rect x="725" y="625" width="140" height="32" rx="6" fill="#1a1a35" stroke="#6c63ff" stroke-width="1"/>
+  <text x="795" y="646" font-size="11" fill="#6c63ff" text-anchor="middle" font-family="sans-serif" font-weight="600">Multi-Tenant</text>
+
+  <!-- Title -->
+  <text x="600" y="770" font-size="14" fill="#888" text-anchor="middle" font-family="monospace">Next.js  |  Node.js  |  AWS  |  MongoDB  |  Cognito</text>
+</svg>

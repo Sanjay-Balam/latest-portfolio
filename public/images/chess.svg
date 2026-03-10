@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c63ff"/>
+      <stop offset="100%" style="stop-color:#3f3d9e"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#c23152"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bg)"/>
+
+  <!-- Chess Board -->
+  <g transform="translate(300, 150)">
+    <!-- Board shadow -->
+    <rect x="5" y="5" width="600" height="480" rx="8" fill="rgba(0,0,0,0.3)"/>
+    <!-- Board border -->
+    <rect x="0" y="0" width="600" height="480" rx="8" fill="#2a2a4a" stroke="#6c63ff" stroke-width="2"/>
+
+    <!-- Chess squares 8x6 visible -->
+    <g transform="translate(15, 15)">
+      <!-- Row 1 -->
+      <rect x="0" y="0" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="71" y="0" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="142" y="0" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="213" y="0" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="284" y="0" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="355" y="0" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="426" y="0" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="497" y="0" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <!-- Row 2 -->
+      <rect x="0" y="56" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="71" y="56" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="142" y="56" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="213" y="56" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="284" y="56" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="355" y="56" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="426" y="56" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="497" y="56" width="71" height="56" fill="#b58863" rx="2"/>
+      <!-- Row 3 -->
+      <rect x="0" y="112" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="71" y="112" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="142" y="112" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="213" y="112" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="284" y="112" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="355" y="112" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="426" y="112" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="497" y="112" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <!-- Row 4 -->
+      <rect x="0" y="168" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="71" y="168" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="142" y="168" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="213" y="168" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="284" y="168" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="355" y="168" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="426" y="168" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="497" y="168" width="71" height="56" fill="#b58863" rx="2"/>
+      <!-- Row 5 -->
+      <rect x="0" y="224" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="71" y="224" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="142" y="224" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="213" y="224" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="284" y="224" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="355" y="224" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="426" y="224" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="497" y="224" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <!-- Row 6 -->
+      <rect x="0" y="280" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="71" y="280" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="142" y="280" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="213" y="280" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="284" y="280" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="355" y="280" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="426" y="280" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="497" y="280" width="71" height="56" fill="#b58863" rx="2"/>
+      <!-- Row 7 -->
+      <rect x="0" y="336" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="71" y="336" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="142" y="336" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="213" y="336" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="284" y="336" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="355" y="336" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="426" y="336" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="497" y="336" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <!-- Row 8 -->
+      <rect x="0" y="392" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="71" y="392" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="142" y="392" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="213" y="392" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="284" y="392" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="355" y="392" width="71" height="56" fill="#b58863" rx="2"/>
+      <rect x="426" y="392" width="71" height="56" fill="#f0d9b5" rx="2"/>
+      <rect x="497" y="392" width="71" height="56" fill="#b58863" rx="2"/>
+
+      <!-- Highlighted square (selected piece) -->
+      <rect x="213" y="168" width="71" height="56" fill="#6c63ff" opacity="0.5" rx="2"/>
+      <!-- Possible move indicators -->
+      <circle cx="249" cy="140" r="8" fill="#6c63ff" opacity="0.6"/>
+      <circle cx="320" cy="140" r="8" fill="#6c63ff" opacity="0.6"/>
+      <circle cx="178" cy="140" r="8" fill="#6c63ff" opacity="0.6"/>
+
+      <!-- Chess pieces (Unicode-style) -->
+      <!-- Black pieces row 1 -->
+      <text x="22" y="40" font-size="36" fill="#333" text-anchor="middle" font-family="serif">&#9820;</text>
+      <text x="93" y="40" font-size="36" fill="#333" text-anchor="middle" font-family="serif">&#9822;</text>
+      <text x="164" y="40" font-size="36" fill="#333" text-anchor="middle" font-family="serif">&#9821;</text>
+      <text x="235" y="40" font-size="36" fill="#333" text-anchor="middle" font-family="serif">&#9819;</text>
+      <text x="306" y="40" font-size="36" fill="#333" text-anchor="middle" font-family="serif">&#9818;</text>
+      <text x="377" y="40" font-size="36" fill="#333" text-anchor="middle" font-family="serif">&#9821;</text>
+      <text x="448" y="40" font-size="36" fill="#333" text-anchor="middle" font-family="serif">&#9822;</text>
+      <text x="519" y="40" font-size="36" fill="#333" text-anchor="middle" font-family="serif">&#9820;</text>
+      <!-- Black pawns -->
+      <text x="22" y="96" font-size="30" fill="#333" text-anchor="middle" font-family="serif">&#9823;</text>
+      <text x="93" y="96" font-size="30" fill="#333" text-anchor="middle" font-family="serif">&#9823;</text>
+      <text x="164" y="96" font-size="30" fill="#333" text-anchor="middle" font-family="serif">&#9823;</text>
+      <text x="235" y="96" font-size="30" fill="#333" text-anchor="middle" font-family="serif">&#9823;</text>
+      <text x="306" y="96" font-size="30" fill="#333" text-anchor="middle" font-family="serif">&#9823;</text>
+      <text x="377" y="96" font-size="30" fill="#333" text-anchor="middle" font-family="serif">&#9823;</text>
+      <text x="448" y="96" font-size="30" fill="#333" text-anchor="middle" font-family="serif">&#9823;</text>
+      <text x="519" y="96" font-size="30" fill="#333" text-anchor="middle" font-family="serif">&#9823;</text>
+
+      <!-- Knight moved to center -->
+      <text x="249" y="208" font-size="36" fill="#fff" text-anchor="middle" font-family="serif">&#9816;</text>
+
+      <!-- White pawns -->
+      <text x="22" y="376" font-size="30" fill="#fff" text-anchor="middle" font-family="serif">&#9817;</text>
+      <text x="93" y="376" font-size="30" fill="#fff" text-anchor="middle" font-family="serif">&#9817;</text>
+      <text x="164" y="376" font-size="30" fill="#fff" text-anchor="middle" font-family="serif">&#9817;</text>
+      <text x="235" y="320" font-size="30" fill="#fff" text-anchor="middle" font-family="serif">&#9817;</text>
+      <text x="306" y="320" font-size="30" fill="#fff" text-anchor="middle" font-family="serif">&#9817;</text>
+      <text x="377" y="376" font-size="30" fill="#fff" text-anchor="middle" font-family="serif">&#9817;</text>
+      <text x="448" y="376" font-size="30" fill="#fff" text-anchor="middle" font-family="serif">&#9817;</text>
+      <text x="519" y="376" font-size="30" fill="#fff" text-anchor="middle" font-family="serif">&#9817;</text>
+      <!-- White pieces row 8 -->
+      <text x="22" y="432" font-size="36" fill="#fff" text-anchor="middle" font-family="serif">&#9814;</text>
+      <text x="93" y="432" font-size="36" fill="#fff" text-anchor="middle" font-family="serif">&#9816;</text>
+      <text x="164" y="432" font-size="36" fill="#fff" text-anchor="middle" font-family="serif">&#9815;</text>
+      <text x="235" y="432" font-size="36" fill="#fff" text-anchor="middle" font-family="serif">&#9813;</text>
+      <text x="306" y="432" font-size="36" fill="#fff" text-anchor="middle" font-family="serif">&#9812;</text>
+      <text x="377" y="432" font-size="36" fill="#fff" text-anchor="middle" font-family="serif">&#9815;</text>
+      <text x="519" y="432" font-size="36" fill="#fff" text-anchor="middle" font-family="serif">&#9814;</text>
+    </g>
+  </g>
+
+  <!-- "LIVE" indicator -->
+  <circle cx="115" cy="175" r="6" fill="#e94560">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="130" y="180" font-size="14" fill="#e94560" font-family="monospace" font-weight="bold">LIVE MATCH</text>
+
+  <!-- Player info top -->
+  <rect x="115" y="195" width="160" height="40" rx="6" fill="#2a2a4a" stroke="#444" stroke-width="1"/>
+  <circle cx="135" cy="215" r="10" fill="#6c63ff"/>
+  <text x="150" y="220" font-size="13" fill="#ccc" font-family="sans-serif">Player 2</text>
+  <text x="255" y="220" font-size="12" fill="#888" font-family="monospace" text-anchor="end">05:42</text>
+
+  <!-- Player info bottom -->
+  <rect x="115" y="555" width="160" height="40" rx="6" fill="#2a2a4a" stroke="#6c63ff" stroke-width="1"/>
+  <circle cx="135" cy="575" r="10" fill="#e94560"/>
+  <text x="150" y="580" font-size="13" fill="#fff" font-family="sans-serif">Player 1</text>
+  <text x="255" y="580" font-size="12" fill="#6c63ff" font-family="monospace" text-anchor="end">08:15</text>
+
+  <!-- WebSocket indicator -->
+  <rect x="920" y="160" width="220" height="30" rx="15" fill="#1a3a1a" stroke="#4ade80" stroke-width="1"/>
+  <circle cx="940" cy="175" r="4" fill="#4ade80"/>
+  <text x="952" y="180" font-size="12" fill="#4ade80" font-family="monospace">WebSocket Connected</text>
+
+  <!-- Title overlay -->
+  <text x="600" y="730" font-size="28" fill="#fff" text-anchor="middle" font-family="sans-serif" font-weight="bold" opacity="0.9">Multiplayer Chess</text>
+  <text x="600" y="760" font-size="14" fill="#888" text-anchor="middle" font-family="monospace">Next.js  |  Express  |  WebSockets  |  MongoDB</text>
+</svg>
