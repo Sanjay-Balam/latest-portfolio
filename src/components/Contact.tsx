@@ -36,7 +36,7 @@ const Contact = () => {
               Linkedin <MdArrowOutward />
             </a>
             <a
-              href="https://leetcode.com/balamsanjay"
+              href="https://leetcode.com/u/SANJAY_BALAM/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
